@@ -1,4 +1,6 @@
+# This is an instruction to the whole project, which shows the basic structure of code and guides the following work.
 # for the functions below, we need to write arguments, return variables and a brief description for each of them.
+# unfinished yet
 
 def initialize_lattice():
 ''' 
