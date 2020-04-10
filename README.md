@@ -1,6 +1,9 @@
-Monte-Carlo-implementation-of-Ising-model
+# Monte-Carlo-implementation-of-Ising-model
+
 This is an instruction for the final project of Physics 77, 2020 Spring
+
 group number: 4
+
 group members: Haiyue Dong, Jose Rodriguez, Jinze Wu (arranged by last name)
 
 The topic of final project is Monte Carlo Implementation on Ising Model
@@ -45,12 +48,12 @@ using these states to calculate magnitization, specific heat, correlation functi
   The location (x,y) here is another denotion of lattice point that is fundementally same as i-th 
   lattice point denotation above.
   
-   * * * * * * * * 5
-   * * * * * * * * 4
-   * * * * * * * * 3
-   * * * * * * * * 2
-   * * * * * * * * 1
-   1 2 3 4 5 6 7 8
+    * * * * * * * * 5 
+    * * * * * * * * 4
+    * * * * * * * * 3
+    * * * * * * * * 2
+    * * * * * * * * 1
+    1 2 3 4 5 6 7 8 
     
    The state of lattice point, which is also called spin, is +1 or -1, which is denoted by \sigma.
    The state of lattice is an array that shows the state of all lattice points points.
