@@ -8,12 +8,16 @@ group members: Haiyue Dong, Jose Rodriguez, Jinze Wu (arranged by last name)
 
 The topic of final project is Monte Carlo Implementation on Ising Model
 
+## Project Description
 
 The Monte Carlo Implementation on Ising Model is a computational simulation that uses Metropolis 
 Algorithem to effeciently select a finite set of lattice states under Boltzman distribution, and 
 using these states to calculate magnitization, specific heat, correlation function of the system.
+The project consists of simulation of Ising model using Monte Carlo method and visuliation of the
+calculated result. Simulation should also be compare with the analytical solution, namely Onsager
+solution.
 
-***TERM EXPLANATION***
+## Term Explanation
 
 1.Ising model is a 2D lattice whose Harmitonian equals to $-\sum_{<i,j>}*J*\sigma_j*\sigma_i$
   where J is a constant, \sum<i,j> denotes the sum over neareat lattice point
@@ -43,7 +47,7 @@ using these states to calculate magnitization, specific heat, correlation functi
     * * * * * * * *
     * * * * * * * *
     
-  Periodical strcture means that lattice point at(1,1) is the sam as that at(1,9) if the lattice 
+  Periodical strcture means that lattice point at(1,1) is the same as that at(1,9) if the lattice 
   is 5 by 8. more e.g.(1,1)<=>(6,1), (2,3)<=>(2,11). A 2D lattice can be any Nx by Ny.
   The location (x,y) here is another denotion of lattice point that is fundementally same as i-th 
   lattice point denotation above.
@@ -77,7 +81,12 @@ using these states to calculate magnitization, specific heat, correlation functi
 
 6.Coherence function between two spins \simga_i and \sigma_j is the 
 
-***LOGICE or TRAIN OF CODE***
+## Instruction Detail
+
+The whole project is divided into simulation part and visualization part. First, the 
+
+
+### Simulation
 
 1.First we need
 
@@ -87,4 +96,10 @@ using these states to calculate magnitization, specific heat, correlation functi
 
 4.Forth
 
+### Visualization
+
 balabalabala
+
+### Optimization
+
+This part will be done if time perimits.
